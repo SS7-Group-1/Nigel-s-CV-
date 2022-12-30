@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="CSS files/format.css"> <!-- Link to css files to implement changes--> <!-- / infront of css files needs to be removed for static websites as theres no root for it -->
+</head>
+<body>
+    <h1>Contact Details</h1>
+<hr>
+<h2>Email Address</h2>
+<p>Pojislayer@gmail.com</p>
+<br>
+<h2>Phone Number</h2>
+<p> +65 98456301</p>
+<br>
+<h2>Getting In Touch</h2>
+<form action="mailto:hasterwfsc@gmail.com" method="post" enctype="text/plain"> <!--Action is to targeted website , method is what u want to do with it , encytpe is the message type -->
+    <label>Your Name</label>
+    <input type="text" name="Name" id="">
+    <br>
+    <label>Your Email</label>
+    <input type="email" name="Email Address"> <!-- name is the displayed name of ur variables to be displayed when performing an action i.e email-->
+    <br>
+    <label>Date of Availability</label>
+    <input type = "datetime-local" name ="Date of Availability">
+    <br>
+    <label>Leave a message below</label>
+    <br>
+    <textarea name="" id="" cols="20" rows="1"></textarea>
+    <br>
+    <input type ="submit">
+</form>
+</body>
+</html>
