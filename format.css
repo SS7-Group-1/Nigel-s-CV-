@@ -1,0 +1,24 @@
+body{
+    background-color: #CBEDD5; /* Priority of CSS implementation inline -> internal -> external, from highest to lowest priority, higher priority css is able to overwrite lower priority CSS*/
+}
+
+/*Syntax of CSS : Selector : property : value  i.e. hr is your selector, width is your property and 5px is your value*/
+hr
+{
+    border-style: none;
+    border-top-style: dotted; /*Alternatively can be border-style dotted none none*/
+    border-color: grey;
+    border-width: 5px; /*Width for element in border*/
+    height: 0px;
+    width: 5%; /*Width for border*/
+}
+
+h1
+{
+    color: #439A97;
+}
+
+h2
+{
+    color: #439A97;
+}
